@@ -1,7 +1,13 @@
 {
   "name": "react-tesla-range-calculator",
   "version": "0.1.0",
+  "description": "Simple Tesla range calculator with React",
   "private": true,
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "webpack -p"
+  },
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
