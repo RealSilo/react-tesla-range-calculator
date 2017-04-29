@@ -29,9 +29,9 @@ const TeslaCounter = (props) => (
 
 TeslaCounter.propTypes = {
   currentValue: React.PropTypes.number,
-  increment: React.PropTypes.function,
-  decrement: React.PropTypes.function,
-  initValues: React.PropTypes.object
+  initValues: React.PropTypes.object,
+  decrement: React.PropTypes.func,
+  increment: React.PropTypes.func
 }
 
 export default TeslaCounter;
