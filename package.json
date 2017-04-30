@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Simple Tesla range calculator with React",
   "private": true,
+  "engines": {
+    "node": "7.9.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
